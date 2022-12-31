@@ -1,0 +1,665 @@
+body {margin:0;
+    font-family: 'Helvetica', Arial, Lucida Grande, sans-serif !important;
+    background-color: rgb(247, 251, 255);
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(240, 242, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+  }
+  .navbar img {
+    height: 20px;
+    margin: auto;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(77, 77, 77);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar a:hover {
+    color: rgb(0, 0, 0);
+    float: left;
+  }
+  
+  .banner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    max-width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    color: #000000;
+    background-color: rgb(240, 242, 255);
+  }
+  .banner img{
+    height: 450px;
+    margin:auto;
+    border-radius: 14px;
+  }
+  
+  .hero{
+    max-width: 60%;
+    color: rgb(36, 36, 36);
+    padding: auto;
+    margin: auto;
+  }
+  .hero h1{
+    line-height: 56px;
+    font-size: 43px;
+  }
+  
+  .hero p{
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+  }
+  
+  .search {
+    width: 100%;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid rgb(104, 119, 216);
+    border-right: none;
+    padding: 5px;
+    height: 34px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .searchTerm:focus{
+    color: rgb(0, 0, 0);
+  }
+  
+  .searchButton {
+    width: 60px;
+    height: 50px;
+    border: 3px solid rgb(104, 119, 216);
+    background-color: rgb(197, 204, 252);
+    text-align: center;
+    color: rgb(77, 88, 161);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .kategories {
+    margin: auto;
+    max-width: 50%;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(8, 1fr);
+    
+  }
+  .kategory {
+    padding-top: 20px;
+    margin: auto;
+  }
+  
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  .card {
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2);
+  }
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  .cards{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  .details{
+    padding-top: 100px;
+    max-width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .detail{
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2);
+  }
+
+  .logins{
+    padding-top: 100px;
+    max-width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .login{
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2);
+  }
+  
+  .login h1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+ .login input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ .login input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .login input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .login input[type=file], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .login input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+  }
+.login input[type=submit] {
+  width: 100%;
+  background-color: rgb(104, 119, 216);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login input[type=submit]:hover {
+  background-color: rgb(96, 109, 197);
+}
+.register{
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(36, 36, 36);
+  height: auto;
+  width: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+.group{
+  margin: 10px;
+}
+.register input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.register input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.register input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.register input[type=file], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.register input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize: none;
+}
+.register input[type=submit] {
+width: 100%;
+background-color: rgb(104, 119, 216);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.register input[type=submit]:hover {
+background-color: rgb(96, 109, 197);
+}
+
+
+  .detail img {
+    border-radius: 10px 0px 0px 10px;
+    width: 460px;
+  }
+
+  .desc {
+    padding-right: 65px;
+    float: right;
+    margin: auto;
+    width: 500px;
+  }
+  .profile img{
+    margin-top: 16px;
+    margin-right: 5px;
+    border-radius: 100%;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    width: 25px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 10px 0 rgba(124, 165, 255, 0.2);
+  }
+  
+  .card a:link, a:visited {
+  height: 20px;
+  margin-top: 2px;
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+  display: inline-block;
+  }
+  
+  .card a:hover, a:active {
+  color: black;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  .kategories :link, a:visited {
+  
+  color: rgb(77, 77, 77);
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+  }
+  
+  .kategories :hover, a:active {
+  color: black;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
+  .button1 {
+    background-color: rgb(104, 119, 216);
+    border: 2px solid rgb(104, 119, 216);
+    color: white;
+    
+  }
+  
+  .button1:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(104, 119, 216);
+  }
+  
+  .button2 {
+    
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(224, 95, 90);
+  }
+  
+  .button2:hover {
+    background-color: rgb(224, 95, 90);
+    color: white;
+  }
+  .footers {
+    position: bottom;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    color: #000000;
+    background-color: #cddaff;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  
+  .footer{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 400px;
+  }
+  .footer td{
+    padding-top:5px;
+    margin: auto;
+    padding-right: 20px;
+  }
+  
+  .logo img{
+    margin: auto;
+    width: 120px;
+  }
+  
+  .socialmedia{
+    font-size: 25px;
+  }
+
+  /* SIDE NAVBAR CSSS*/
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 242, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(77, 77, 77);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #000000;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  .dashboard {
+    background-color: rgb(248, 248, 248);
+    padding: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1500px; /* Used in this example to enable scrolling */
+    color: rgb(36, 36, 36);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  .content {
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2);
+  }
+  .choice{
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .bapprove {
+    border-radius:0 0 0 10px;
+    border: none;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(104, 119, 216);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    
+  }
+  
+  .bapprove:hover {
+    background-color: rgb(255, 255, 255);
+    color:  rgb(104, 119, 216);
+  }
+  .bcancelled {
+    border-radius:0 0 10px 0;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(228, 48, 41);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    
+  }
+  .bcancelled:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 48, 42);
+  }
+  .content img {
+    border-radius: 10px 10px 0 0;
+  }
+  .choice-myads{
+    padding: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .choice-myads a {
+    float: left;
+    display: block;
+    color: rgb(104, 119, 216);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .choice-myads a:hover {
+    color: rgb(126, 141, 236);
+    float: left;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media (min-width: 800px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  
+  @media (min-width: 1000px) {
+    .cards { grid-template-columns: repeat(5, 1fr); }
+  }
+  
+  @media (min-width: 300px) {
+  
+  }
+  @media (max-width: 400px) {
+    .banner img{
+      height: 250px;
+      margin:auto;
+      border-radius: 14px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .kategories { grid-template-columns: repeat(8, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .dashboard { grid-template-columns: repeat(5, 1fr); }
+  }
+  
+  @media (min-width: 900px) {
+    .banner { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 600px) {
+    .banner { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 600px) {
+    .hero { grid-template-columns: repeat(2, 1fr); }
+  }
